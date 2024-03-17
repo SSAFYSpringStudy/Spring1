@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.discount.RateDiscountPolicyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-17T20:54:17" hostname="Suhwan-M3-MacBook-Pro.local" time="0.018">
+  <properties/>
+  <testcase name="VIP가 아니면 할인이 적용되지 않아야 한다." classname="hello.core.discount.RateDiscountPolicyTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
