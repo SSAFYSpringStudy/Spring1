@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextBasicFindTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-19T14:28:07" hostname="Suhwan-M3-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="빈 이름으로 조회" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.005"/>
+  <system-out><![CDATA[23:28:07.838 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@42721fe
+23:28:07.842 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:28:07.882 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23:28:07.884 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23:28:07.884 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23:28:07.885 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23:28:07.887 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'appConfig'
+23:28:07.888 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'memberService'
+23:28:07.890 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'memberRepository'
+23:28:07.890 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'orderService'
+23:28:07.891 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'discountPolicy'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
