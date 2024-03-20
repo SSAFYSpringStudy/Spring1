@@ -1,2 +1,2 @@
->memberService1 = hello.core.member.MemberServiceImpl@247310d0
->memberService2 = hello.core.member.MemberServiceImpl@73eb439a
+CsingletonService1 = hello.core.singleton.SingletonService@73eb439a
+CsingletonService2 = hello.core.singleton.SingletonService@73eb439a
