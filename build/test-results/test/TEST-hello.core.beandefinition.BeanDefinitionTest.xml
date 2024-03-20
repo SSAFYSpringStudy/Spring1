@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beandefinition.BeanDefinitionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-20T12:12:53" hostname="Suhwan-M3-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="빈 설정 메타정보 확인" classname="hello.core.beandefinition.BeanDefinitionTest" time="0.005"/>
+  <system-out><![CDATA[21:12:53.901 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@62e20a76
+21:12:53.906 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:12:53.947 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:12:53.949 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+21:12:53.950 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:12:53.950 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:12:53.953 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'appConfig'
+21:12:53.954 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'memberService'
+21:12:53.956 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'memberRepository'
+21:12:53.957 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'orderService'
+21:12:53.957 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'discountPolicy'
+beanDefinitionName = appConfigbeanDefinition = Generic bean: class [hello.core.AppConfig$$SpringCGLIB$$0]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinitionName = memberServicebeanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=memberService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinitionName = memberRepositorybeanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=memberRepository; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinitionName = orderServicebeanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=orderService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinitionName = discountPolicybeanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=discountPolicy; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
