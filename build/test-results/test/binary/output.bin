@@ -1,2 +1,19 @@
-CsingletonService1 = hello.core.singleton.SingletonService@73eb439a
-CsingletonService2 = hello.core.singleton.SingletonService@73eb439a
+O07:20:16.018 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+n                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@189aa67a
+I07:20:16.022 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+ç                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+I07:20:16.039 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+~                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+I07:20:16.040 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+|                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+I07:20:16.042 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+â                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+I07:20:16.042 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+Ü                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+I07:20:16.045 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+\                Creating shared instance of singleton bean 'statefulServiceTest.TestConfig'
+I07:20:16.046 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+M                Creating shared instance of singleton bean 'statefulService'
+name = userA price = 10000
+name = userB price = 20000
+price = 10000
