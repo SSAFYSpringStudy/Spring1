@@ -6,13 +6,15 @@ import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+@Component
 public class OrderServiceImpl implements  OrderService{
     //주문생성 요청이 오면 회원정보를 조회하고 그다음에 할인 정책에다가 회원을 그냥 넘기기
     // 무엇을 넘길지 고민해보며 설계하기 (사람마다 다름)
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
-
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;

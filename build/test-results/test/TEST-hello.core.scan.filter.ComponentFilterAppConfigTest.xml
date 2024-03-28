@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-28T14:12:30" hostname="Suhwan-M3-MacBook-Pro.local" time="0.175">
+  <properties/>
+  <testcase name="filterScan()" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.175"/>
+  <system-out><![CDATA[23:12:30.491 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@189aa67a
+23:12:30.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23:12:30.514 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner --
+                Identified candidate component class: file [/Users/choisuhwan/study/Spring1/build/classes/java/test/hello/core/scan/filter/BeanA.class]
+23:12:30.540 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23:12:30.541 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23:12:30.541 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23:12:30.542 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23:12:30.545 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'componentFilterAppConfigTest.ComponentFilterAppConfig'
+23:12:30.547 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+                Creating shared instance of singleton bean 'beanA'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,10 +1,14 @@
 package hello.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MemberServiceImpl implements MemberService{
 
     //가입을 하고 회원을 찾기 위해서 앞에서 만들었던 저장소가 필요
     private final MemberRepository memberRepository;
-
+    @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

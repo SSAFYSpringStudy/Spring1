@@ -1,26 +1,18 @@
-O07:54:56.054 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
-n                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5aac4250
-I07:54:56.059 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+O23:12:30.491 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext --
+n                Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@189aa67a
+I23:12:30.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
 ç                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-I07:54:56.103 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+K23:12:30.514 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner --
+ò                Identified candidate component class: file [/Users/choisuhwan/study/Spring1/build/classes/java/test/hello/core/scan/filter/BeanA.class]
+I23:12:30.540 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
 ~                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-I07:54:56.104 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+I23:12:30.541 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
 |                Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-I07:54:56.105 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+I23:12:30.541 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
 â                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-I07:54:56.105 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+I23:12:30.542 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
 Ü                Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-I07:54:56.107 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
-G                Creating shared instance of singleton bean 'appConfig'
-I07:54:56.108 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
-K                Creating shared instance of singleton bean 'memberService'
-call AppConfig.memberService
-I07:54:56.110 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
-N                Creating shared instance of singleton bean 'memberRepository'
- call AppConfig.memberRepository
-I07:54:56.111 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
-J                Creating shared instance of singleton bean 'orderService'
-call AppConfig.orderService
-I07:54:56.111 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
-L                Creating shared instance of singleton bean 'discountPolicy'
-2bean = class hello.core.AppConfig$$SpringCGLIB$$0
+I23:12:30.545 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+s                Creating shared instance of singleton bean 'componentFilterAppConfigTest.ComponentFilterAppConfig'
+I23:12:30.547 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory --
+C                Creating shared instance of singleton bean 'beanA'
